@@ -176,6 +176,9 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
     <title>AT&amp;T Sample Speech Application - Speech to Text (Generic) Application</title>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <link rel="stylesheet" type="text/css" href="style/common.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="jRecorder.js"> </script>
+    
 </head>
     <body>
         <div id="container">
@@ -227,7 +230,120 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
                         <tbody>
                             <tr>
                                 <td width="20%" valign="top" class="label">Audio File:</td>
-                                <td class="cell"><input name="f1" type="file"></td>
+                                <!--td class="cell"><input name="f1" type="file"></td-->
+				<td class="cell">
+					<div id="locationforrecorder" style="border:1px solid grey">
+					</div>
+					<script>
+   
+   $.jRecorder(
+     
+     { 
+        host : 'http://54.242.49.145/watsongangham/acceptfile.php?filename=watson' ,
+//        host : 'acceptfile.php?filename=watsonaudio' ,
+        callback_started_recording:     function(){callback_started(); },
+        callback_stopped_recording:     function(){callback_stopped(); },
+        callback_activityLevel:          function(level){callback_activityLevel(level); },
+        callback_activityTime:     function(time){callback_activityTime(time); },
+        
+        callback_finished_sending:     function(time){ callback_finished_sending() },
+        
+        
+        swf_path : 'jRecorder.swf',
+     
+     }
+     
+    , $('#locationforrecorder')
+        
+   
+   );
+   
+    
+   
+   </script>
+<div style="background-color: #eeeeee;border:1px solid #cccccc">
+
+  Time: <span id="time">00:00</span>
+
+</div>
+
+
+<div>
+  Level: <span id="level"></span>
+</div>
+
+<div id="levelbase" style="width:200px;height:20px;background-color:#ffff00">
+
+  <div id="levelbar" style="height:19px; width:2px;background-color:red"></div>
+
+</div>
+
+<div>
+  Status: <span id="status"></status>
+</div>
+<input type="button" id="record" value="Record" style="color:red">
+<input type="button" id="stop" value="Stop">
+<script type="text/javascript">
+                  $('#record').click(function(){
+                      $.jRecorder.record(30);
+                  })
+                  
+                  $('#stop').click(function(){
+                     $.jRecorder.stop();
+		     $.jRecorder.sendData();
+                  })
+                  
+                  function callback_finished()
+                  {
+                      $('#status').html('Recording is finished');
+                  }
+                  
+                  function callback_started()
+                  {
+                      $('#status').html('Recording is started');
+                  }
+                  
+                  function callback_error(code)
+                  {
+                      $('#status').html('Error, code:' + code);
+                  }
+                  
+                  function callback_stopped()
+                  {
+                      $('#status').html('Stop request is accepted');
+                  }
+
+                  function callback_finished_recording()
+                  {
+                      $('#status').html('Recording event is finished');
+                  }
+                  
+                  function callback_finished_sending()
+		  {
+                      $('#status').html('File has been sent to server mentioned as host parameter');
+                  }
+                  
+                  function callback_activityLevel(level)
+                  {
+                    $('#level').html(level);
+                    if(level == -1)
+                    {
+                      $('#levelbar').css("width",  "2px");
+                    }
+                    else
+                    {
+                      $('#levelbar').css("width", (level * 2)+ "px");
+                    }
+                  }
+                  
+                  function callback_activityTime(time)
+                  {
+                   //$('.flrecorder').css("width", "1px"); 
+                   //$('.flrecorder').css("height", "1px"); 
+                    $('#time').html(time);
+                  }
+        </script>
+				</td>
                             </tr>
 			    <tr>
 			<td />
@@ -235,7 +351,7 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
 			<div id="extraleft">
                         <div class="warning">
                             <strong>Note:</strong><br />
-                            If no file is chosen, a <a href="./bostonSeltics.wav">default.wav</a> file will be loaded on submit.<br />
+                            After recording your gangham, wait untill the playback finishes and then click submit and wait till watson magically print the song!<br />
                             <strong>Speech file format constraints:</strong> <br />
                                 .	16 bit PCM WAV, single channel, 8 kHz sampling<br />
                                 .	AMR (narrowband), 12.2 kbit/s, 8 kHz sampling<br />
@@ -283,7 +399,7 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
 	  
 	  if($filename == null) {
 	 	
-	 	$filename = dirname(__FILE__).'/bostonSeltics.wav';
+	 	$filename = dirname(__FILE__).'/watson-audio.wav';
 	  	$file_binary = fread(fopen($filename, 'rb'), filesize($filename));
 	  
 	 } else{

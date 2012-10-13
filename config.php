@@ -5,12 +5,9 @@ For more information contact developer.support@att.com
 -->
 
 <?php
-    $api_key = "";
-    $secret_key = "";
+    $api_key = "a2cd167e4127315ef580feb9526826b0";
+    $secret_key = "ddbbff991a11a803";
     $FQDN = "https://api.att.com";
     $scope = "SPEECH";
     $oauth_file = ".../tmp/speechoauthtoken.php";
-   
-
 ?>
-
