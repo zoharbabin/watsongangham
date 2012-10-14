@@ -15,8 +15,8 @@
    
    fclose($fp);
    
-   $commandString = 'ffmpeg -i watson.wav -y -ar 8000 -ab 16 -ac 1 watson-audio.wav >> log_file.log 2>&1 &';
-   $command = exec($commandString);
+//   $commandString = 'ffmpeg -i watson.wav -y -ar 8000 -ab 16 -ac 1 watson-audio.wav >> log_file.log 2>&1 &';
+//   $command = exec($commandString);
    
    exit('done');
    

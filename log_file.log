@@ -34,3 +34,446 @@ Stream mapping:
 Press ctrl-c to stop encoding
 size=      89kB time=5.71 bitrate= 128.1kbits/s    
 video:0kB audio:89kB global headers:0kB muxing overhead 0.050343%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0xa6b7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:05.61, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      88kB time=5.62 bitrate= 128.1kbits/s    
+video:0kB audio:88kB global headers:0kB muxing overhead 0.051175%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x258c7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:08.35, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     131kB time=8.36 bitrate= 128.0kbits/s    
+video:0kB audio:131kB global headers:0kB muxing overhead 0.034398%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x112c7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.56, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     118kB time=7.57 bitrate= 128.0kbits/s    
+video:0kB audio:118kB global headers:0kB muxing overhead 0.037986%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x6b07a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:14.72, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     230kB time=14.72 bitrate= 128.0kbits/s    
+video:0kB audio:230kB global headers:0kB muxing overhead 0.019531%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1d2a7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:08.17, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     128kB time=8.17 bitrate= 128.0kbits/s    
+video:0kB audio:128kB global headers:0kB muxing overhead 0.035180%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x141e7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.24, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     113kB time=7.24 bitrate= 128.1kbits/s    
+video:0kB audio:113kB global headers:0kB muxing overhead 0.039691%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:03.76, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      59kB time=3.76 bitrate= 128.1kbits/s    
+video:0kB audio:59kB global headers:0kB muxing overhead 0.076453%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:04.17, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      65kB time=4.18 bitrate= 128.1kbits/s    
+video:0kB audio:65kB global headers:0kB muxing overhead 0.068807%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:03.85, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      60kB time=3.85 bitrate= 128.1kbits/s    
+video:0kB audio:60kB global headers:0kB muxing overhead 0.074610%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:02.46, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      38kB time=2.46 bitrate= 128.1kbits/s    
+video:0kB audio:38kB global headers:0kB muxing overhead 0.116864%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:03.76, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      59kB time=3.76 bitrate= 128.1kbits/s    
+video:0kB audio:59kB global headers:0kB muxing overhead 0.076453%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:03.25, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      51kB time=3.25 bitrate= 128.1kbits/s    
+video:0kB audio:51kB global headers:0kB muxing overhead 0.088472%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:03.76, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      59kB time=3.76 bitrate= 128.1kbits/s    
+video:0kB audio:59kB global headers:0kB muxing overhead 0.076453%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0xba57a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.26, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      98kB time=6.27 bitrate= 128.1kbits/s    
+video:0kB audio:98kB global headers:0kB muxing overhead 0.045866%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1b4a7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.59, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     103kB time=6.59 bitrate= 128.1kbits/s    
+video:0kB audio:103kB global headers:0kB muxing overhead 0.043605%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x7827a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.45, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     101kB time=6.45 bitrate= 128.1kbits/s    
+video:0kB audio:101kB global headers:0kB muxing overhead 0.044546%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1df97a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.13, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      96kB time=6.13 bitrate= 128.1kbits/s    
+video:0kB audio:96kB global headers:0kB muxing overhead 0.046909%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0xd057a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.17, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      97kB time=6.18 bitrate= 128.1kbits/s    
+video:0kB audio:96kB global headers:0kB muxing overhead 0.046556%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1de47a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:06.31, bitrate: 693 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=      97kB time=6.20 bitrate= 128.1kbits/s    
+video:0kB audio:97kB global headers:0kB muxing overhead 0.046341%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1b437a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.19, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     112kB time=7.20 bitrate= 128.1kbits/s    
+video:0kB audio:112kB global headers:0kB muxing overhead 0.039947%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x14e87a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:28.23, bitrate: 402 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     251kB time=16.09 bitrate= 128.0kbits/s    
+video:0kB audio:251kB global headers:0kB muxing overhead 0.017871%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1b3a7a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:24.65, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     385kB time=24.66 bitrate= 128.0kbits/s    
+video:0kB audio:385kB global headers:0kB muxing overhead 0.011659%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x14c87a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.66, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     120kB time=7.66 bitrate= 128.0kbits/s    
+video:0kB audio:120kB global headers:0kB muxing overhead 0.037526%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x1fc37a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.66, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     120kB time=7.66 bitrate= 128.0kbits/s    
+video:0kB audio:120kB global headers:0kB muxing overhead 0.037526%
+ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
+  built on Jun 12 2012 16:52:09 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[wav @ 0x8b57a0] max_analyze_duration reached
+Input #0, wav, from 'watson.wav':
+  Duration: 00:00:07.66, bitrate: 705 kb/s
+    Stream #0.0: Audio: pcm_s16le, 44100 Hz, 1 channels, s16, 705 kb/s
+The bitrate parameter is set too low.It takes bits/s as argument, not kbits/s
+Output #0, wav, to 'watson-audio.wav':
+  Metadata:
+    encoder         : Lavf53.21.0
+    Stream #0.0: Audio: pcm_s16le, 8000 Hz, 1 channels, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press ctrl-c to stop encoding
+size=     120kB time=7.66 bitrate= 128.0kbits/s    
+video:0kB audio:120kB global headers:0kB muxing overhead 0.037526%

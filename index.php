@@ -7,8 +7,11 @@ For more information contact developer.support@att.com
 <?php
 header("Content-Type: text/html; charset=ISO-8859-1");
 include ("config.php");
-include ($oauth_file);
-error_reporting(0);
+//include ($oauth_file);
+require_once('php5/KalturaClient.php');
+require_once('php5/TestCode/KalturaTestConfiguration.php');
+
+//error_reporting(0);
 session_start();
 
 function RefreshToken($FQDN,$api_key,$secret_key,$scope,$fullToken){
@@ -394,11 +397,12 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
       $fullToken=check_token($FQDN,$api_key,$secret_key,$scope,$fullToken,$oauth_file);
       $accessToken=$fullToken["accessToken"];
 	  
-	  $filename = $_FILES['f1']['name'];
+	  $filename = null; //$_FILES['f1']['name'];
 	  
 	  
 	  if($filename == null) {
-	 	
+		$commandString = 'ffmpeg -i watson.wav -y -ar 8000 -ab 16 -ac 1 watson-audio.wav >> log_file.log 2>&1 &';
+   		$command = exec($commandString);	
 	 	$filename = dirname(__FILE__).'/watson-audio.wav';
 	  	$file_binary = fread(fopen($filename, 'rb'), filesize($filename));
 	  
@@ -497,8 +501,28 @@ function check_token( $FQDN,$api_key,$secret_key,$scope, $fullToken,$oauth_file)
 					
 					
 					
-	
-
+			$kConfig = new KalturaConfiguration(KalturaTestConfiguration::PARTNER_ID);
+        	        $kConfig->serviceUrl = KalturaTestConfiguration::SERVICE_URL;
+	                $client = new KalturaClient($kConfig);	
+			$userId = "watsongangham";
+                	$sessionType = KalturaSessionType::ADMIN;
+                        $ks = $client->generateSession(KalturaTestConfiguration::ADMIN_SECRET, $userId, $sessionType, KalturaTestConfiguration::PARTNER_ID);
+                        $client->setKs($ks);	
+//	$client = $this->getKalturaClient(KalturaTestConfiguration::PARTNER_ID, KalturaTestConfiguration::ADMIN_SECRET, false);
+                        $filePath = dirname(__FILE__).'/watson-audio.wav'; //'watson-audio.wav';
+                        //$token = $client->media->upload($filePath);
+                        $token = $client->uploadToken->add();
+			$client->uploadToken->upload($token->id, $filePath);
+			$mediaResource = new KalturaUploadedFileTokenResource();
+			$mediaResource->token = $token->id;
+			$entry = new KalturaMediaEntry();
+                        $entry->name = "watson gangham - ".@$jsonObj2->Recognition->ResponseId;
+			$entry->description = @$jsonObj2->Recognition->NBest[0]->ResultText;
+                        $entry->mediaType = KalturaMediaType::AUDIO;
+			$entry = $client->media->add($entry);
+			$newEntry = $client->media->addContent($entry->id, $mediaResource);
+                        //$newEntry = $client->media->addFromUploadedFile($entry, $token);
+                        echo "<p>Uploaded to Kaltura: " . $newEntry->id . '<br />' . $filePath . '</p>';
 
         }else{
 		
